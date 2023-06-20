@@ -1,0 +1,672 @@
+
+/*section_______________________________________________________________________________________________________*/
+
+
+nav {
+  font-family: "Please write me a song";
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 2px;
+  
+}
+
+nav {
+  background-color: beige;
+  border-radius: 30px;
+  display: flex;.
+}
+
+
+
+nav {
+  display: flex;
+  flex-direction: row;
+  }
+
+
+nav li {
+  display: inline-block;
+  color: #87ecec;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #87ecec;
+  text-decoration: none;
+  border: #54d395;
+  border-radius: 5px;
+}
+
+
+.active  {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+
+.nav-menu a:hover {
+  color: #ffc4be;
+  border-color: #54d395;
+}
+
+
+
+
+
+  /*Responsive__________________________________________________________________________________________________*/
+  
+  @media (max-width: 768px) {
+  
+
+  nav {
+    flex-direction: column;
+  }
+  
+  nav li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+/*Sobre mí__________________________________________________________________________________________________*/
+
+#sobremi {
+  background: url(img/fondofondo.jpg);
+  background-attachment: fixed;
+}
+
+.padreflex {
+  display: flex;
+}
+
+
+.padreflex .texto {
+  
+  padding: 2%;
+  font-family: "Big Dreamer";
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-align: center;
+  text-align: justify;
+  line-height: 60px;
+  margin-top: 4%;
+}
+
+.foto {
+  align-items: left;
+  padding: 5%;
+  margin: 2%;
+}
+
+
+.massobremi {
+  margin: 0;
+  height: 10%;
+  width: 100%;
+  font-family: "arial";
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffc4be;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+
+/*Responsive___________________________________________________________________________________________________*/
+
+@media (max-width: 768px) {
+
+  .padreflex {
+    background-color: black;
+    flex-direction: column;
+    justify-self: unset;
+    align-content: center;
+  }
+
+
+  .foto {
+    align-items: center;
+    padding: auto;
+    margin: auto;
+  }
+
+  .texto {
+    background-color: #ffc4be;
+    width: auto;
+    grid-column: 3/4;
+    grid-row: span 1;
+  }
+
+
+.massobremi {
+  margin: 0;
+  height: 10%;
+  width: 100%;
+  font-family: "arial";
+  font-size: 16px;
+  text-align: center;
+  background-color: #87ecec;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  height: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+}
+
+/*section_______________________________________________________________________________________________________*/
+
+
+
+.section-title-divider {
+  width: 99%;
+  height: 5px;
+  background: #ffc4be;
+  margin: 5px;
+  border-radius: 2%;
+  margin-bottom: 1%;
+}
+
+
+/*mis servicios________________________________________________________________________________________________*/
+
+
+.description {
+
+  color: black;
+  margin: 4%;
+  margin-left: 25%;
+  height: 18%;
+  font-family: "Big Dreamer";
+  font-size: 180%;
+  letter-spacing: 6px;
+  text-align: right;
+  line-height: 150%;
+  padding: 0px;
+
+}
+
+
+#servicios {
+  background: url(img/fondofondo.jpg);
+  background-attachment: fixed;
+}
+
+
+
+
+h2 {
+  font-family: "arial";
+  font-style: italic;
+  font-size: 18px;
+  text-align: right;
+  margin: 38px;
+  width: 300px;
+  height: 10px;
+  text-align: center;
+}
+
+
+h3 {
+  font-family: "arial";
+  font-style: italic;
+  color: #93da90;
+  font-weight: 300px;
+  font-size: 20px;
+  margin: 150px;
+  width: 300px;
+  padding-left: 820px;
+  height: 4px;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+
+
+#servicios .dibujo .pic {
+  border-radius: 50%;
+  border: 8px solid rgb(248, 194, 190);
+  margin: 4%;
+  margin-top: 5%;
+  overflow: hidden;
+  height: 19%;
+  width: 19%;
+}
+
+
+#servicios .dibujotiburon .pic {
+  border-radius: 50%;
+  border: 8px solid rgb(248, 194, 190);
+  margin-left: 76%;
+  overflow: hidden;
+  height: 19%;
+  width: 19%;
+  margin-top: 6%;
+
+}
+
+#servicios .dibujotiburon .pic img {
+  max-width: 100%;
+}
+
+
+#servicios .dibujotiburon h2 {
+  font-weight: 300;
+  color: #93da90;
+  margin-bottom: 5px;
+  font-family: "arial";
+}
+
+
+
+#servicios .dibujo .pic img {
+  max-width: 100%;
+}
+
+
+#servicios .dibujo h2 {
+  text-align: center;
+  font-weight: 300;
+  color: #93da90;
+  margin-bottom: 5px;
+  font-family: "arial";
+}
+
+
+#servicios .caja1 {
+  position: absolute;
+  background: rgba(144, 218, 160, 0.555);
+  width: 60%;
+  left: 30%;
+  padding: 3%;
+  margin-top: 0px;
+  font-family: "Please write me a song";
+  font-size: 23px;
+  line-height: 40px;
+  border-radius: 30px;
+}
+
+
+#servicios .caja2 {
+  position: absolute;
+  background: rgba(144, 218, 160, 0.555);
+  width: 55%;
+  right: 33%;
+  padding: 3%;
+  margin-top: 31%;
+  margin-right: 2%;
+  font-family: "Please write me a song";
+  font-size: 23px;
+  line-height: 40px;
+  font-weight: 300;
+  border-radius: 30px;
+}
+
+
+
+#servicios .caja3 {
+  position: absolute;
+  background: rgba(144, 218, 160, 0.555);
+  width: 55%;
+  left: 32%;
+  padding: 3%;
+  margin: 2%;
+  margin-top: 1%;
+  font-family: "Please write me a song";
+  font-size: 23px;
+  line-height: 40px;
+  font-weight: 300;
+  border-radius: 30px;
+
+}
+
+@media (max-width: 768px) {
+
+
+
+  .description {
+    background-color: #ffc4be;
+    color: black;
+    margin-top: 0%;
+    margin-left: 0%;
+    height: 18%;
+    font-family: "Big Dreamer";
+    font-size: 3em;
+    letter-spacing: 6px;
+    text-align: center;
+    line-height: 150%;
+    padding: 8%;
+  }
+  
+
+ 
+  #servicios {
+    background: none;
+    background-color: white;
+    grid-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+  .grid-layout {
+    display: grid;
+    grid-template-columns: 30% auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: auto;
+    width: 100%;
+    margin: 0%;
+    }
+
+    
+
+ #servicios .caja1 {
+  display: grid;
+  grid-column: 1/5;
+  position: initial;
+  top: 60%;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  line-height: normal;
+  width: auto;
+  padding: 5%;
+  }
+
+
+
+#servicios .caja2 {
+  position: absolute;
+  width: auto;
+  left: 0%;
+  bottom: -97%;
+  background-color: #ffc4be;
+  font-size: 2em;
+  
+
+}
+
+
+
+#servicios .caja3 {
+ 
+  position: absolute;
+  bottom: -162%;
+  left: 0%;
+  background: rgba(144, 218, 160, 0.555);
+  width: 55%;
+  padding: 3%;
+  margin: 2%;
+  margin-top: 1%;
+  font-family: "Please write me a song";
+  font-size: 3em;
+  line-height: 40px;
+  font-weight: 300;
+  border-radius: 30px;
+
+}
+
+h2 {
+  display: none;
+}
+
+
+#scrollButton {
+  visibility: hidden;
+  }
+
+  .dibujotiburon {
+    display: none;
+  }
+  
+  #servicios .dibujo .pic {
+    display: none;
+  }
+  
+  #servicios .dibujo .pic img{
+    display: none;
+  }
+
+
+}
+
+
+
+/*Contacto________________________________________________________________________________________________*/
+
+
+#contacto {
+  background-image: url(img/fondo2.jpg);
+  background-size: cover;
+}
+
+.mensaje {
+  margin-top: 20px;
+  margin-left: 420px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  font-family: "Big Dreamer";
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
+
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+
+input,
+textarea {
+  width: 200px;
+  padding: 2%;
+  margin-top: 5px;
+}
+
+
+
+#comentarios {
+  width: 50%;
+  padding: 50px;
+  margin-top: 5px;
+  margin-bottom: 10%;
+
+}
+
+
+input[type="submit"] {
+  background-color: #87ecec;
+  color: black;
+  border-radius: 5px;
+  border-style:solid;
+  cursor: pointer;
+  margin-left: 1%;
+}
+
+
+
+input[type="submit"]:hover {
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+
+ 
+ /*Responsive___________________________________________________________________________________*/
+
+
+ @media (max-width: 768px) {
+
+  #contacto {
+  background-image: none;
+  
+}  
+
+.mensaje {
+  background-color: #87ecec;
+  padding-bottom: 4%;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+  justify-self: unset;
+  align-content: center;
+}
+
+.footer {
+  color: white;
+  height: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+}
+
+
+
+/*Botones RR.SS______________________________________________________________________________*/
+
+.social-icons {
+  display: flex;
+  position: absolute;
+  margin-top: 5%;
+}
+
+
+.no-bullets {
+  list-style-type: none;
+}
+
+
+.no-bullets li::before {
+  content: none;
+}
+
+
+.social-icons a {
+  display: inline-block;
+  padding: 10%;
+  color: black;
+  font-size: 30px;
+}
+
+
+.social-icons a:hover {
+  color: #87ecec;
+}
+
+
+
+
+/*Footer_____________________________________________________________________________________*/
+
+
+
+footer {
+  background-color: #ffc4be;
+  margin-top: 2%;
+  padding: 2%;
+  height: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+p {
+  font-family: "Big dreamer";
+  font-size: 30px;
+}
+
+
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .footer {
+    display: none;
+  }
+}
+
+
+/*Mis trabajos____________________________________________________________________________*/
+
+
+
+.carousel-item {
+  
+  margin-top: 5%;
+  margin-left: center;
+
+}
+
+
+.behance {
+  margin: 35%;
+  padding: 1%;
+  margin-bottom: 2%;
+  width: 30%;
+  font-family: "arial";
+  font-size: 16px;
+  text-align: center;
+  background-color: #87ecec;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+
+
+#scrollButton {
+  margin-left: 85%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(48, 2, 133);
+  color: white;
+  border: none;
+  padding: 1% 3%;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+
+
+
+ 

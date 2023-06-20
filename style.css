@@ -1,0 +1,166 @@
+body {
+  background-image: url(img/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+
+#home {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+
+/*Botones________________________________________________________________________________________*/
+
+
+.btn {
+ margin: 1%;
+ background-color:black;
+ border-radius: 20px;
+ font-family: "Big Dreamer";
+ font-size: 22px;
+ letter-spacing: 2px;
+}
+
+
+/*Nav____________________________________________________________________________________________________*/
+
+
+nav {
+    padding: 1%;
+    margin-top: 15px;
+    font-family: "Please write me a song";
+    font-size: 23px;
+    letter-spacing: 2px;
+    text-align: center;
+      
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    }
+
+  
+  nav li {
+    display: inline-block; 
+    color: #87ecec;
+    margin-right: 30px;
+  
+  }
+
+   
+  nav a {
+    color: black; 
+    text-decoration: none; 
+    padding: 10px 10px; 
+    border: #54d395;
+    border-radius: 5px;
+  }
+
+  .nav-menu a:hover {
+    color:#87ecec;
+    
+  }
+
+  
+  .active  {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+  }
+   
+  .padreflex {
+    display: flex;
+  }
+
+  
+
+
+  /*Responsive__________________________________________________________________________________________________*/
+
+
+  
+  @media (max-width: 768px) {
+  
+
+
+    nav {
+      flex-direction: column;
+    }
+    
+    nav li {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+  }
+
+
+
+
+
+/*Botones RR.SS_____________________________________________________________________________________*/
+
+.social-icons {
+  display: flex;
+  position: absolute;
+  margin-top: 10%;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.no-bullets li::before {
+  content: none;
+}
+
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px;
+  color:black;
+  font-size: 30px;
+}
+
+.social-icons a:hover {
+  color: #87ecec;
+}
+
+
+
+/*Responsive___________________________________________________________________________________*/
+
+
+@media (max-width:768px){
+  
+  body {
+    background-image: url(img/fondofondo.jpg);
+    background-repeat: repeat;
+  }
+
+  
+ 
+    nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: 18px;
+    }
+  
+    nav li {
+      margin-right: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  
+    
+  
+
